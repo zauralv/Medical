@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto';
+}
+
+:root {--myblue: #6bc2f1}
+header {
+    background: url("img/headerbg.jpg") center/cover;
+}
+
+.bg-nav { background-color: #ffffffcc;}
+
+.bg-blue {background-color: var(--myblue);
+}
+
+.text-myblue {color: var(--myblue)}
+
+
+.vh-50 {height: 50vh;}
+
+.bg-img1{
+    background: url("img/img1.jpg") center/cover;
+    /* opacity: 0.5; */
+}
+
+.bg-img2{
+    background: url("img/img2.jpg") center/cover;
+    /* opacity: 0.5; */
+}
+
+.bg-gray{
+    background-color: #f1f1f1;
+}
+
+.resize-none{
+    resize: none;
+}
+
+.submit-btn{
+    background-color: #fff;
+    border: solid 1px var(--myblue);
+    border-radius: 0;
+    color: var(--myblue);
+}
+
+.form-input{
+    color: #e5e5e5;
+    border: solid 1px #e5e5e5;
+    border-radius: 0;
+}
+
+.font{
+    font-family: 'Roboto';
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.font-weight-light{
+    font-weight: lighter;
+}
+
+.white-btn{
+    color: #061b46;
+    font-size: 0.75em;
+}
+
+.footer-bg{
+    background-color: #072035;
+}
+
+h4{
+    font-size: 1.125em;
+}
+
+footer p{
+    font-size: 0.875em;
+    line-height: 30px;
+    font-weight: 400;
+}
